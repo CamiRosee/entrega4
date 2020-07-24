@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Contactános</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      
+    <div class="container-fluid nopad">
+
+      <nav class="navbar navbar-default header">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          
+            <a class="navbar-brand" href="../index.html">
+              <img src="../img/logo.jpg" alt="logo">
+            </a>
+
+
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li ><a href="../index.html">Inicio</a></li>
+              <li ><a href="quienesSomos.html">Quiénes Somos</a></li>
+              <li class="dropdown">
+                <a href="menu.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menú <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="menu.html">Desayunos y Meriendas</a></li>
+                  <li><a href="menu.html">Almuerzos</a></li>
+                  <li><a href="menu.html">Bebidas</a></li>
+                  <li><a href="menu.html">Postres</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="cursos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cursos <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cursos.html">Pastelería Vegana Tradicional</a></li>
+                  <li><a href="cursos.html">Curso Online Gratis</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="cursos.html">Próximamente: Cocina ZeroWaste</a></li>
+                </ul>
+              </li>
+              <li class="active"><a href="contacto.html">Contacto  <span class="sr-only">(current)</span></a></li>
+            </ul>
+           
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="container">
+        
+        <div class="row">
+          
+          <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d656.2768550570422!2d-58.45975312574424!3d-34.56341924468867!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5bd54e7a545%3A0xcf3aef7cc2a2f3f5!2sVica!5e0!3m2!1ses!2sar!4v1594162942306!5m2!1ses!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            
+          </div>
+          <div class="col-md-6">
+              <h4 >Estamos ubicados en el barrio de Belgrano!</h4>
+              <p>En Moldes 2117. Sí, estamos un poquito escondidos pero te prometemos que nos vas a encontrar!</p>
+            
+
+            
+                
+              <h4 class="margArriba">Whatsapp para pedidos especiales o consultas.</h4>
+              <img src="../img/logoWhatsapp.png" alt="whatsapp">
+              <p>1159120433</p> <!--La idea es que se abra un pop up para chatear-->
+              <h4>También hacemos catering para eventos!</h4>
+          </div>
+
+        </div>
+
+      
+
+      </div>
+    
+
+      <div class="row"><!--inicio modal-->
+        <!-- Button trigger modal -->
+        <div class="col-md-12 text-center">
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Escribinos!
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Consultanos lo que quieras!</h4>
+              </div>
+              <div class="modal-body">
+                <div class="formulario"><!--inicio formulario-->
+                  <form>
+                    <div class="form-group">
+                      <label for="nombre">Nombre Completo</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo">
+                    </div>
+                    <div class="form-group">
+                      <label for="telefono">Teléfono</label>
+                      <input type="number" class="form-control" id="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="nombre@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="mensaje">Mensaje:</label><br>
+                      <textarea name="mensaje" id="mensaje" cols="75" rows="10"></textarea>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Querés recibir información sobre nuevos cursos o productos?
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary margDer">Enviar</button><button type="reset" class="btn btn-default">Borrar</button>
+                  </form>
+                </div><!--fin formulario-->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--fin modal-->
+ 
+
+      <div class="row margArriba">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <fieldset class="redes">
+           <legend>Nuestras Redes #LoveBased</legend>
+           <div class="row footer">
+            
+            
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center ig">
+                <a href="https://www.instagram.com/vica.plantbased" target="blank">                
+                  <img class="ig" src="../img/logoInstagram.png" alt="instagram">
+                </a>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center fb">
+                <a class="fb" href="https://www.facebook.com" target="blank">
+                  <img src="../img/logoFacebook.png" alt="facebook">
+                </a>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center yt">
+                <a href="https://www.youtube.com" target="blank">
+                  <img class="yt" src="../img/logoYoutube.png" alt="youtube">
+                </a>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center ta">
+                <a href="https://www.tripadvisor.com" target="blank">
+                  <img class="ta" src="../img/logoTripadvisor.png" alt="tripadvisor">
+                </a>
+              </div>
+            </div>  
+          </fieldset>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>

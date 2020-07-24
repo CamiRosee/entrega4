@@ -1,0 +1,124 @@
+/*Necesito fijar footer abajo
+Cambiar color de fondo del item actual de la barra de navegacion
+centrar items en la barra de navegacion*/
+$colorPrincipal: #fcdb5a;
+$colorSecundario:  #efc005;
+$colorExtra: brown;
+$fondo: white;
+
+.header{
+    background-color: $colorSecundario;
+    height: 115px;
+}
+
+body{
+	background-color: $colorPrincipal;
+}
+
+li.activo{
+	background-color: $colorExtra;  
+} 
+/* No me funciona */
+
+.navbar-default .navbar-nav>li>a{
+	background-color: solid, #efc005;
+}
+/*Me queda transparente cuando se despliega el menu*/
+
+.carousel{
+    margin-left: 20px;
+    margin-right: 20px;
+    scale: 0.5;
+}
+
+.novedad{
+    position: absolute;
+    z-index: 5;
+    bottom: 100px;
+    left: 100px;
+    background-color: $fondo 0.5;
+}
+
+div.thumbnail{
+	background-color: $colorSecundario;
+	padding-top: 25px;
+}
+
+.row{
+	margin: 0px;
+}
+
+.nopad{
+	padding: 0px;
+}
+
+.justif{
+	text-align: justify;
+}
+
+.margArriba{
+	margin-top: 30px;
+}
+
+.margAbajo{
+	margin-bottom: 30px;
+}
+
+.paddArriba{
+	padding-top: 40px;
+}
+
+.margIzq{
+	margin-left: 20px;
+}
+
+.btn-primary{
+	background-color: #ad6f37;
+	border-color: #80532b;
+}
+
+.btn-primary:hover{
+	background-color: #f0bc00;
+	border-color: #d4c304;
+}
+
+.margDer{
+	margin-right: 5px;
+}
+
+.footer{
+    grid-template-areas: 
+    "logo ig"
+    "logo fb"
+    "logo yt"
+    "logo ta";
+}
+
+.logo2{
+    grid-area: logo;
+}
+.ig{
+    grid-area: ig;
+}
+.fb{
+    grid-area: fb;
+}
+.yt{
+    grid-area: yt;
+}
+.ta{
+    grid-area: ta;
+}
+
+@media (max-width: 576px){
+	.filo{
+		text-align: center;
+		justify-content: center;
+		background-color: $colorSecundario;
+	}
+	.paddArriba{
+		padding-top: 0px;
+	}
+}
+
+
